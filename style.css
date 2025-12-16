@@ -10,10 +10,6 @@
 }
 
 
-    
-.world {
-    font-size: 1000%;
-}
 
 .logo{
     width: 25%;
@@ -68,3 +64,47 @@
 #carouselExampleSlidesOnly {
     margin-top: 56px; /* height of navbar */
 }
+
+
+/* -------------ABOUT PAGE START--------------- */
+.aboutNITP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    
+  }
+  
+  .aboutNITP img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aboutNITP-text {
+    max-width: 600px;
+  }
+  
+  .aboutNITP-text h2 {
+    color: #b78fd6;
+    margin-bottom: 20px;
+  }
+  
+  .aboutNITP-text p {
+    color: #333;
+    line-height: 1.6;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------ABOUT PAGE CLOSING--------------- */
