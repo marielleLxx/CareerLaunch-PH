@@ -30,6 +30,31 @@
 }
 
 
+/* SCROLL TO TOP BUTTON STYLES */
+#go-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    /* font-size: 16px; */
+    background-color: #3c6ca8;
+    color: white;
+    opacity: 0.5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s linear;
+}
+#go-to-top-button:hover {
+    opacity: 1.0;
+}
+#go-to-top-button.hidden {
+    display: none;
+}
+/* END OF SCROLL TO TOP BUTTON STYLES */
+
+
 /* ------ START OF HOMEPAGE -------- */
 /* Resize carousel images and preserve aspect with cover */
       #carouselExampleSlidesOnly .carousel-inner img
